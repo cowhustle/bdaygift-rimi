@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f6eee6" />
+    <title>For Sohini &amp; Srijani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <main class="mobile-story" id="top">
+      <section class="scene scene--hero" data-scene>
+        <div class="scene-glow scene-glow--hero" aria-hidden="true"></div>
+
+        <div class="sparkles" aria-hidden="true">
+          <span class="sparkle"></span>
+          <span class="sparkle"></span>
+          <span class="sparkle"></span>
+          <span class="sparkle"></span>
+          <span class="sparkle"></span>
+          <span class="sparkle"></span>
+        </div>
+
+        <div class="balloon-cluster balloon-cluster--hero" aria-hidden="true">
+          <span class="balloon balloon--champagne"></span>
+          <span class="balloon balloon--gold"></span>
+          <span class="balloon balloon--rose"></span>
+        </div>
+
+        <div class="hero-topbar reveal" style="--delay: 0.04s">
+          <p class="credit">A birthday keepsake by Rimi</p>
+
+          <button
+            class="sound-toggle"
+            id="soundToggle"
+            type="button"
+            aria-pressed="false"
+            aria-label="Toggle Happy Birthday theme"
+          >
+            <span class="sound-toggle__label">Theme song</span>
+            <span class="sound-toggle__state" id="soundState">Auto</span>
+          </button>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow reveal" style="--delay: 0.12s">
+            For two hearts worth celebrating
+          </p>
+
+          <h1 class="hero-title reveal" style="--delay: 0.2s">
+            <span>Today is about</span>
+            <span>two beautiful souls</span>
+            <em>&#10022;</em>
+          </h1>
+
+          <p class="hero-note reveal" style="--delay: 0.3s">
+            A soft, little story for Sohini and Srijani. Thoughtfully made,
+            quietly glowing, and meant to feel like a page you keep.
+          </p>
+        </div>
+
+        <div class="hero-collage reveal" style="--delay: 0.38s">
+          <figure class="panel hero-memory hero-memory--one">
+            <img
+              src="pic1.png"
+              alt="Birthday memory photo."
+              class="memory-photo"
+              fetchpriority="high"
+            />
+          </figure>
+
+          <figure class="panel hero-memory hero-memory--two">
+            <img
+              src="pic2.png"
+              alt="Birthday memory photo."
+              class="memory-photo"
+              fetchpriority="high"
+            />
+          </figure>
+
+          <figure class="panel hero-memory hero-memory--three">
+            <img
+              src="pic3.png"
+              alt="Birthday memory photo."
+              class="memory-photo"
+              fetchpriority="high"
+            />
+          </figure>
+
+          <p class="collage-caption">three little memories &middot; no crop &middot; all heart</p>
+        </div>
+
+        <a class="scroll-cue reveal" href="#names" style="--delay: 0.46s">
+          <span>Begin the story</span>
+          <span class="scroll-cue__line"></span>
+        </a>
+      </section>
+
+      <section class="scene scene--names" id="names" data-scene>
+        <p class="section-label reveal">Scene 02</p>
+
+        <div class="names-wrap">
+          <p class="mini-copy reveal" style="--delay: 0.08s">
+            the ones this day belongs to
+          </p>
+          <h2 class="name-line reveal" style="--delay: 0.16s">SOHINI</h2>
+          <div class="ampersand reveal" style="--delay: 0.24s">&amp;</div>
+          <h2 class="name-line reveal" style="--delay: 0.32s">SRIJANI</h2>
+          <p class="names-note reveal" style="--delay: 0.4s">
+            Two lovely presences who make ordinary moments feel brighter,
+            softer, and a little more unforgettable.
+          </p>
+        </div>
+      </section>
+
+      <section class="scene scene--gallery" id="gallery" data-scene>
+        <p class="section-label reveal">Scene 03</p>
+
+        <div class="section-heading reveal" style="--delay: 0.08s">
+          <p class="eyebrow">Photo showcase</p>
+          <h3>All three frames, kept exactly the way they were.</h3>
+        </div>
+
+        <div class="gallery-shell reveal" style="--delay: 0.18s">
+          <div class="gallery-track" id="galleryTrack" aria-label="Birthday photo showcase">
+            <article class="gallery-card">
+              <div class="gallery-frame gallery-frame--memory">
+                <img
+                  src="pic1.png"
+                  alt="Birthday memory photo."
+                  class="gallery-image"
+                  loading="eager"
+                />
+              </div>
+              <p class="gallery-caption">
+                A raw, real little frame exactly as it was.
+              </p>
+            </article>
+
+            <article class="gallery-card">
+              <div class="gallery-frame gallery-frame--memory">
+                <img
+                  src="pic2.png"
+                  alt="Birthday memory photo."
+                  class="gallery-image"
+                  loading="eager"
+                />
+              </div>
+              <p class="gallery-caption">
+                The clearest smile, the warmest kind of moment.
+              </p>
+            </article>
+
+            <article class="gallery-card">
+              <div class="gallery-frame gallery-frame--memory">
+                <img
+                  src="pic3.png"
+                  alt="Birthday memory photo."
+                  class="gallery-image"
+                  loading="eager"
+                />
+              </div>
+              <p class="gallery-caption">
+                Playful, close, and perfectly worth keeping.
+              </p>
+            </article>
+          </div>
+
+          <div class="gallery-dots" id="galleryDots" aria-hidden="true">
+            <span class="gallery-dot is-active"></span>
+            <span class="gallery-dot"></span>
+            <span class="gallery-dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene scene--memories" data-scene>
+        <p class="section-label reveal">Scene 04</p>
+
+        <div class="section-heading reveal" style="--delay: 0.08s">
+          <p class="eyebrow">Memory notes</p>
+          <h3>Little feelings worth holding onto.</h3>
+        </div>
+
+        <div class="memory-stack">
+          <article class="quote-card reveal" style="--delay: 0.16s">
+            <p class="quote-mark">&ldquo;</p>
+            <p class="quote-body">
+              Some people do not arrive loudly. They change the whole feeling
+              of a day with gentleness.
+            </p>
+            <p class="quote-note">for the softness you carry</p>
+          </article>
+
+          <article class="quote-card reveal" style="--delay: 0.24s">
+            <p class="quote-mark">&ldquo;</p>
+            <p class="quote-body">
+              A beautiful heart is never just seen. It is felt in the calm it
+              leaves behind.
+            </p>
+            <p class="quote-note">for the warmth you give so naturally</p>
+          </article>
+
+          <article class="quote-card reveal" style="--delay: 0.32s">
+            <p class="quote-mark">&ldquo;</p>
+            <p class="quote-body">
+              The best kind of glow is the one made of kindness, laughter, and
+              being fully yourself.
+            </p>
+            <p class="quote-note">for the light that is so distinctly yours</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="scene scene--letter" data-scene>
+        <p class="section-label reveal">Scene 05</p>
+
+        <article class="letter-card reveal" id="letterCard" style="--delay: 0.08s">
+          <p class="letter-kicker">A note from Rimi</p>
+          <h3 class="letter-title">For both of you, with all my heart</h3>
+
+          <div class="letter-lines">
+            <p class="letter-line">Dear Sohini and Srijani,</p>
+            <p class="letter-line">
+              Today is a reminder of how beautiful it is that the world gets to
+              have both of you in it.
+            </p>
+            <p class="letter-line">
+              I hope this year gives you back every bit of softness, comfort,
+              joy, and care that you so naturally bring into other lives.
+            </p>
+            <p class="letter-line">
+              May your days feel lighter, your dreams feel closer, and your
+              smiles stay exactly as genuine as they are now.
+            </p>
+            <p class="letter-line">
+              Thank you for being yourselves so fully, so beautifully, and so
+              effortlessly.
+            </p>
+            <p class="letter-line">
+              You deserve a year that feels warm, unforgettable, and filled
+              with little moments worth keeping forever.
+            </p>
+          </div>
+
+          <p class="letter-signoff">Love always, Rimi</p>
+        </article>
+      </section>
+
+      <section class="scene scene--final" id="finale" data-scene>
+        <div class="scene-glow scene-glow--final" aria-hidden="true"></div>
+
+        <div class="balloon-cluster balloon-cluster--final" aria-hidden="true">
+          <span class="balloon balloon--gold"></span>
+          <span class="balloon balloon--champagne"></span>
+          <span class="balloon balloon--gold"></span>
+        </div>
+
+        <div class="floating-lights" aria-hidden="true">
+          <span class="light"></span>
+          <span class="light"></span>
+          <span class="light"></span>
+          <span class="light"></span>
+          <span class="light"></span>
+        </div>
+
+        <article class="celebration-card reveal">
+          <p class="eyebrow">Final celebration</p>
+          <h2>
+            Happy Birthday<br />
+            Sohini &amp; Srijani <span>&hearts;</span>
+          </h2>
+          <p class="celebration-note">
+            May this year hold softness, confidence, beautiful surprises, and
+            all the love you deserve.
+          </p>
+          <p class="with-love">With love, Rimi</p>
+        </article>
+
+        <div class="micro-confetti" aria-hidden="true">
+          <span style="--left: 9%; --delay: 0.02s"></span>
+          <span style="--left: 19%; --delay: 0.12s"></span>
+          <span style="--left: 34%; --delay: 0.08s"></span>
+          <span style="--left: 48%; --delay: 0.18s"></span>
+          <span style="--left: 62%; --delay: 0.1s"></span>
+          <span style="--left: 74%; --delay: 0.16s"></span>
+          <span style="--left: 88%; --delay: 0.06s"></span>
+        </div>
+
+        <a class="scroll-cue scroll-cue--top reveal" href="#top">
+          <span>Replay the story</span>
+          <span class="scroll-cue__line"></span>
+        </a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
